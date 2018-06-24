@@ -1,0 +1,22 @@
+{
+  "name": "token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "1.17.5"
+  },
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "express": "4.16.3",
+    "jsonwebtoken": "8.3.0",
+    "mongoose": "5.1.6",
+    "morgan": "1.9.0"
+  }
+}
